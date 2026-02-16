@@ -33,6 +33,26 @@ This script automates the tedious parts of a fresh install, handling everything 
     
 
 -   CLI & Productivity: Installs yt-dlp from source and configures a suite of useful .bashrc aliases.
+
+## 📺 Specialized Media Automation
+
+A core feature of this script is the intelligent organization of media downloads using yt-dlp. It creates two distinct pathways for video management:
+
+-   yt-dlp (YouTube Focused):
+    
+
+-   Uses a global configuration file at ~/.config/yt-dlp/config.
+    
+-   Automatically organizes downloads into: ~/Downloads/YouTube/[Uploader]/[Playlist]/[Date] - [Title].mp4.
+    
+
+-   ytdlp-other (General Video):
+    
+
+-   A dedicated alias for all non-YouTube sources (Vimeo, X, etc.).
+    
+-   Bypasses the YouTube-specific config to sort files into: ~/Downloads/Videos/[Extractor]/[Uploader]/[Title].mp4.
+
     
 
 ## 🛠️ Usage

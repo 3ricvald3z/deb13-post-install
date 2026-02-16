@@ -1,0 +1,14 @@
+# Ignore video downloads if you run the script in the repo folder
+Downloads/
+Videos/
+
+# Ignore temporary .deb files
+*.deb
+
+# Ignore python virtual environments
+.venv/
+__pycache__/
+
+# System files
+.DS_Store
+Thumbs.db

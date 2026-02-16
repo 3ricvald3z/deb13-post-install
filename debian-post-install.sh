@@ -1,6 +1,6 @@
 #!/bin/bash
 # -----------------------------------------------------------------------------
-# Debian 13 Post-Install: Final Direct Fix + yt-dlp Aliases
+# Debian 13 Post-Install
 # -----------------------------------------------------------------------------
 
 set -e
@@ -67,7 +67,7 @@ cat > ~/.config/yt-dlp/config << EOF
 -o "~/Downloads/YouTube/%(uploader)s/%(playlist_title|'Misc Videos')s/%(upload_date)s - %(title)s [%(id)s].%(ext)s"
 EOF
 
-# 8. THE ALIASES (RESTORED)
+# 8. THE ALIASES
 cat << EOF >> ~/.bashrc
 
 # --- Added by Post-Install Script ---

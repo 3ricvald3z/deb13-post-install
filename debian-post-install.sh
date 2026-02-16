@@ -66,9 +66,11 @@ cat > ~/.config/yt-dlp/config << EOF
 -f bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best
 -o "~/Downloads/YouTube/%(uploader)s/%(playlist_title|'Misc Videos')s/%(upload_date)s - %(title)s [%(id)s].%(ext)s"
 EOF
+
 # Create custom download directories
 echo "Creating custom download directories..."
 mkdir -p ~/Downloads/Videos ~/Downloads/YouTube
+
 # 8. THE ALIASES
 cat << EOF >> ~/.bashrc
 

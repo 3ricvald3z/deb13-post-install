@@ -67,10 +67,6 @@ cat > ~/.config/yt-dlp/config << EOF
 -o "~/Downloads/YouTube/%(uploader)s/%(playlist_title|'Misc Videos')s/%(upload_date)s - %(title)s [%(id)s].%(ext)s"
 EOF
 
-# Create custom download directories
-echo "Creating custom download directories..."
-sudo -u $USER mkdir -p /home/$USER/Downloads/Videos /home/$USER/Downloads/YouTube
-
 # 8. THE ALIASES
 cat << EOF >> ~/.bashrc
 

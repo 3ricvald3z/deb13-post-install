@@ -69,7 +69,7 @@ EOF
 
 # Create custom download directories
 echo "Creating custom download directories..."
-mkdir -p ~/Downloads/Videos ~/Downloads/YouTube
+sudo -u $USER mkdir -p /home/$USER/Downloads/Videos /home/$USER/Downloads/YouTube
 
 # 8. THE ALIASES
 cat << EOF >> ~/.bashrc

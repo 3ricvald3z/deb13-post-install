@@ -68,7 +68,7 @@ cat > ~/.config/yt-dlp/config << EOF
 EOF
 
 # Create custom organizational directories
-echo "Create custom organizational directories..."
+echo "Creating custom organizational directories..."
 mkdir -p /home/$SUDO_USER/Downloads/Videos /home/$SUDO_USER/Downloads/YouTube
 chown -R $SUDO_USER:$SUDO_USER /home/$SUDO_USER/Downloads/Videos /home/$SUDO_USER/Downloads/YouTube
 
